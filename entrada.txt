@@ -1,0 +1,75 @@
+inicio
+
+aprenda circulo :raio
+arco 359 :raio
+fim
+
+aprenda quadrado :lado
+repita 4 [ pf :lado pd 90 ]
+fim
+
+aprenda triangulo :lado
+repita 3 [ pf :lado pe 120 ]
+fim
+
+aprenda semicirculo :raio
+arco 180 :raio
+fim
+
+mudecf [ 175 175 175 ]
+mudey 50
+circulo ( 80 )
+mudex 0
+mudey 50
+pd 44
+quadrado ( 120 )
+mudey -117
+pd 75
+mudecl [ 255 255 0 ]
+triangulo ( 80 )
+mudey 210
+pe 120
+mudecl [ 255 0 0 ]
+circulo ( 50 )
+mudepos [ 57 187 ]
+pd 45
+circulo ( 50 )
+mudepos [ 80 130 ]
+pd 45
+circulo ( 50 )
+mudepos [ -30 130 ]
+pe 90
+mudecl [ 255 255 255 ]
+circulo ( 20 )
+mudey 140
+mudecl [ 0 0 0 ]
+circulo ( 10 )
+mudepos [ -70 170 ]
+pe 140
+mudecl [ 255 255 0 ]
+pf 70
+pe 150
+pf 92
+mudepos [ -70 90 ]
+pd 425
+pf 65
+pd 146
+pf 87
+mudepos [ 85 -35 ]
+pe 331
+mudecl [ 0 0 0 ]
+pf 100
+pe 90
+semicirculo ( 50 )
+pe 45
+pf 100
+pe 90
+semicirculo ( 50 )
+pe 45
+pf 100
+pe 90
+semicirculo ( 50 )
+mudepos [ -2 -210 ]
+rotule [ galo ]
+
+fim

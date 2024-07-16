@@ -413,7 +413,6 @@ def intermediario(tabela_simbolos):
 
     # Reestruturação do REPITA
     # Separação do REPITA na repetição explícita de comandos simples
-    
     if ['repita','REPITA'] in tabela_simbolos:
         aux = []
         pos = 0
@@ -1034,9 +1033,7 @@ transicao = { 'q0' :  { 'a' : 'qf1',
                         'x' : 'qf7',
                         'y' : 'qf7',
                         'z' : 'qf7' }
-             
-                        
-            }
+              }
 
 #----------------------------------------
 
